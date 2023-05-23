@@ -1,0 +1,44 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --background-color: #111010;;
+    --background-card:  #FFFFFF;
+  }
+
+*{
+ box-sizing: border-box;
+ padding: 0;
+ font-family: 'Inter', sans-serif;
+ color: #F8F8F8;
+}
+
+html,
+body {
+ 
+    height: 100%;
+}
+
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background:  var(--background-color);
+    //  background-image: url('/assets/background-image-5.jpg');
+    //  background-size: cover;
+    // // background-size: 20%;
+    // background-repeat: no-repeat;
+    // background-position: center center;
+    // background-attachment: fixed;
+}
+
+.container{
+    padding: 0 2rem;
+
+}
+
+a {
+    text-decoration: none; /* Remove sublinhado */
+    color: inherit; /* Herda a cor do texto do elemento pai */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Adiciona sublinhado quando passa o mouse */
+  }
