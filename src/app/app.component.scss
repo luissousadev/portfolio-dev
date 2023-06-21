@@ -3,7 +3,7 @@
 
         margin: 1rem;
         border-radius: 20px;
-    
+
     }
 }
 
@@ -102,9 +102,10 @@ a{
     width: 19rem;
     font-size: 32px;
     font-weight: 700;
-    
-    @media (min-width: 1200px) {
+
+    @media (max-width: 844px) {
         width: 19rem;
+        font-size: 28px;
         text-align: start;
     }
 }
@@ -119,7 +120,6 @@ a{
     margin-top: 2rem;
     margin-bottom: 5rem;
     width: 15rem;
-    height: 21rem;
     border-radius: 3%;
     @media (min-width: 1200px) {
         margin-right: 2rem;
@@ -169,7 +169,7 @@ hr{
 
 
 .main-content-card{
-    
+
 
     @media (min-width: 1200px) {
        display: flex;
@@ -189,6 +189,7 @@ hr{
     min-width: 8.6rem;
     color: #AEAEAE;
     margin-right: 1rem;
+    margin-bottom: 1rem;
 }
 
 .label-content-contact-info{
@@ -241,6 +242,10 @@ hr{
     display: flex;
     padding: 0rem 0rem 0rem 0rem;
     align-items: center;
+
+    @media (max-width: 600px) {
+      display: contents;
+  }
 }
 
 .sub-title{
